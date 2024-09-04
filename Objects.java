@@ -52,4 +52,14 @@ public class Objects{
            }
       } 
    }
+   public static void Zodiac(int year){
+      switch(year%2){
+         case 1:
+            System.out.print("Your chinese zodiac sign is Pig");
+
+         break;
+
+            
+      }
+   }
 }
